@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@expo/vector-icons/*": ["node_modules/@expo/vector-icons/*"],
+      "react-native-svg-charts/*": ["node_modules/react-native-svg-charts/*"],
+      "d3-shape/*": ["node_modules/d3-shape/*"]
+    },
+    "allowJs": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"],
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
+
+
